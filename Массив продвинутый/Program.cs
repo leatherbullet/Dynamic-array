@@ -27,11 +27,11 @@ namespace Массив_продвинутый
                     case CommandSum:
                         ShowSum(numbers);
                         break;
-                    case CommandExit:
-                        isWork = false;
-                        break;
                     case CommandAddNumber:
                         AddNumber(numbers);
+                        break;
+                    case CommandExit:
+                        isWork = false;
                         break;
                     default:
                         Console.WriteLine("неверный ввод.");
